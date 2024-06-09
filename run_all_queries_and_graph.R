@@ -1,5 +1,4 @@
-##test
-# RUN ALL QUERIES DUCKPLYR, DPLYR and plot timings
+
 options(conflicts.policy = list(warn = FALSE))
 library(tidyverse)
 
