@@ -16,4 +16,4 @@ if (!exists("taxi_data_2019_lazy")) {
 
 Sys.setenv(DUCKPLYR_FORCE = TRUE)
 Sys.setenv(DUCKPLYR_META_SKIP = TRUE)
-# Sys.setenv(DUCKPLYR_OUTPUT_ORDER = TRUE) # Too complex, need to move OO preservation to R layer of duckdb
+## Sys.setenv(DUCKPLYR_OUTPUT_ORDER = TRUE) # Too complex, need to move OO preservation to R layer of duckdb
